@@ -26,6 +26,7 @@ public class kuis13Alif {
              }
                // Tarif: jam pertama Rp 5000, jam berikutnya Rp 3000 per jam
                int biaya = 5000 + (jam - 1) * 3000;
+               System.out.println("Biaya parkir: Rp " + biaya);
                total += biaya;
                jumlahKendaraan++;
 
